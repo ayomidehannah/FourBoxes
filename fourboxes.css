@@ -1,0 +1,27 @@
+.item-1{
+  background-color: red;
+  border-color: black;
+  border-style: solid;
+}
+.item-2{
+  background-color: blue;
+  border-color: black;
+  border-style: solid;
+}
+.item-3{
+  background-color: green;
+  border-color: black;
+  border-style: solid;
+}
+.item-4{
+  background-color: yellow;
+  border-color: black;
+  border-style: solid;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2 , 200px);
+  grid-template-rows: repeat(2 , 100px);
+  justify-content: center;
+  grid-gap: 7px;
+}
